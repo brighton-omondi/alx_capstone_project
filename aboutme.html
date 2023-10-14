@@ -3,40 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/about.css">
-    <link rel="stylesheet" href="/css/skeleton.css">
+    <title>My Portfolio-Brighton</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="skeleton.css">
 </head>
 <body>
     <!--HEADER-->
     <header>
         <div class="radio-inputs">
             <label class="radio">
-              <input type="radio" name="radio" checked="">
-              <span class="name"><a href="#contact">SKILL</a></span>
+              <input type="radio" name="radio">
+              <span class="name"><a href="#skill">SKILL</a></span>
             </label>
             <label class="radio">
               <input type="radio" name="radio">
-              <span class="name">PROJECT</span>
+              <span class="name"><a href="#project">PROJECT</a></span>
             </label>
                 
             <label class="radio">
               <input type="radio" name="radio">
-              <span class="name">CONTACT</span>
+              <span class="name"><a href="#contact">CONTACT</a></span>
             </label>
-          </div>
+        </div>
     </header>
 
     <main>
         <!--ABOUT ME-->
         <section>
             <h1>Who Am I?</h1>
-            <div>
+            <div class="aboutme">
                 <p>
                     I am a Kenyan student currently undertaking a Software Engineering course at ALX and I am situated in Kisumu County.
                 </p>
                 <p>
-                    My journey as a web developer began with a fascination for technology and a desire to bridge the gap between creativity and functionality. I am still a student undertaking degree in Software Engineering. What drives me in this field is the ability to transform ideas into tangible, interactive experiences that people can enjoy and benefit from.
+                    My journey as a web developer began with a fascination for technology and a desire to bridge the gap between creativity and functionality.What drives me in this field is the ability to transform ideas into tangible, interactive experiences that people can enjoy and benefit from.
                 </p>
                 <p>
                     Outside of web development, I am a drummerer, a car lover and a tech enthusiast. These experiences have broadened my horizons and shaped me into a well-rounded individual.
@@ -48,8 +48,8 @@
         </section>
         <!--SKILLS SECTION-->
         <section>
-            <h1>Skill</h1>
-            <div>
+            <h1 id="skill">Skill</h1>
+            <div class="skill" >
                 <h4>Front-end Development</h4>
                 <p>
                     My expertise in front-end development enables me to create visually appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, I strive to build responsive and accessible web interfaces. My passion for design and my understanding of user experience principles help me create websites that not only look great but also function seamlessly.
@@ -76,39 +76,50 @@
 
         <!--PROJECT SECTION-->
         <section>
-            <h1>Project</h1>
-            <h4>Portfolio Website</h4>
-            <p>
-                My personal portfolio website serves as both a showcase of my skills and a platform for me to explore new web technologies. The website features responsive design and a contact form, allowing visitors to get to know me and my work.
-            </p>
+            <h1 id="project">Project</h1>
+            <div class="project" >
+                <h4>Portfolio Website</h4>
+                <p>
+                    My personal portfolio website serves as both a showcase of my skills and a platform for me to explore new web technologies. The website features responsive design and a contact form, allowing visitors to get to know me and my work.
+                </p>
+            </div>
         </section>
 
         <!--CONTACT SECTION-->
         <section>
-            <h1>Contact</h1>
-            <!--CONTACT FORM-->
-        <div class="container" id="contact">
-            <div class="card">
-                <a class="singup">booking</a>
-                <div class="inputBox1">
-                    <input type="text" required="required">
-                    <span >Name</span>
+            <h1 id="contact">Contact</h1>
+            
+            <div>
+
+                <!--CONTACT FORM-->
+                <div class="container" >
+                    <div class="card">
+                        <a class="singup">booking</a>
+                        <div class="inputBox1">
+                            <input type="text" required="required">
+                            <span >Name</span>
+                        </div>
+            
+                        <div class="inputBox">
+                            <input type="email" required="required">
+                            <span class="user">Email</span>
+                        </div>
+            
+                        <div class="inputBox">
+                            <input type="text" required="required">
+                            <span>phone number</span>
+                        </div>
+            
+                        <button class="enter">Enter</button>
+            
+                    </div>
+
+                    <!--SOCIAL MEDIA PRESENCE-->
+
+
                 </div>
-    
-                <div class="inputBox">
-                    <input type="text" required="required">
-                    <span class="user">Email</span>
-                </div>
-    
-                <div class="inputBox">
-                    <input type="text" required="required">
-                    <span>phone number</span>
-                </div>
-    
-                <button class="enter">Enter</button>
-    
             </div>
-        </div>
+        
         </section>
     </main>
 </body>
