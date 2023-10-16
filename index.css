@@ -1,6 +1,13 @@
 /*HERO SECTION*/
+
+body{
+  background-image: url(james-harrison-vpOeXr5wmR4-unsplash.png);
+  background-size:cover;
+  border: #EB5E28 2px solid;
+}
+/*FLIPPER*/
 .container {
-    width: 307px;
+    width: 350px;
     height: 50px;
   }
   
@@ -62,7 +69,7 @@
     -webkit-animation-iteration-count:infinite;
     animation-name: change;
     animation-duration: 10s;
-    animation-iteration-count: infinite;
+    animation-iteration-count:infinite;
   }
   
   .content__container__list__item {
