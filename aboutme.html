@@ -90,6 +90,12 @@
                 <p>
                     My personal portfolio website serves as both a showcase of my skills and a platform for me to explore new web technologies. The website features responsive design and a contact form, allowing visitors to get to know me and my work.
                 </p>
+                <p>To view my projects you can visit my github by clicking on the github icon below</p>
+
+                <div id="git">
+                    <!--Github-->
+                    <a href="https://github.com/brighton-omondi"><img src="github.png" height="36"></a>
+                </div>
             </div>
         </section>
 
@@ -99,20 +105,20 @@
                 <h1 id="contact">Contact</h1>
                 <!--CONTACT FORM-->
                     <div class="form">
-                        <form  class="container">    
+                        <form class="container" method="POST" action="/submit">
                             <h4 class="singup">booking</h4>
-
+                    
                             <label>Name</label><br>
-                            <input type="text" required="required" class="inputBox"><br>
-                            
+                            <input type="text" name="name" required="required" class="inputBox"><br>
+                    
                             <label>Email</label><br>
-                            <input type="email" required="required" class="inputBox"><br>
-                            
+                            <input type="email" name="email" required="required" class="inputBox"><br>
+                    
                             <label>Phone Number</label><br>
-                            <input type="text" required="required" class="inputBox"><br>
-                            
+                            <input type="text" name="phone_number" required="required" class="inputBox"><br>
+                    
                             <br>
-                            <button class="enter">Enter</button>
+                            <button class="enter" type="submit">Enter</button>
                         </form>
                     </div>
                     <!--SOCIAL MEDIA PRESENCE-->
