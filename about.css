@@ -9,12 +9,18 @@ body{
 
 }
 
+p{
+  font-size: 1.5em;
+}
+
 h1{
   text-align: center;
+  font-size: 3em;
 }
 
 h4{
   color: #EB5E28;
+  font-size: 2.5em;
 }
 
 a {
@@ -143,7 +149,7 @@ a {
   
   .inputBox {
     height: 37px;
-    width: fit-content;
+    width: 18em;
     border-radius: 5px;
     border: 2px solid #252422;
     background-color: antiquewhite;
