@@ -13,7 +13,7 @@ class Booking(db.Model):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('aboutme.html')
 
 @app.route('/submit', methods=['POST'])
 def submit():
