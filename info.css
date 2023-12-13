@@ -29,9 +29,24 @@
   /* Media query for smaller screens */
   @media screen and (max-width: 768px) {
     .floating-card {
-      padding: 15px;
+      padding: 20Spx;
       font-size: 14px;
       max-width: 90%;
     }
+  }
+
+/* Updated CSS to include blur effect */
+
+body.blur {
+    filter: blur(5px);
+    pointer-events: none;
+  }
+  
+  .floating-card {
+    /* Existing styles */
+  }
+  
+  .close-btn {
+    /* Existing styles */
   }
   
