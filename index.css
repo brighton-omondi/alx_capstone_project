@@ -5,9 +5,7 @@ body{
   color:antiquewhite;
   width: 100%;
 }
-div{
-  border: #fdfdfd 2px solid;
-}
+
 h1{
   color: teal;
   font-size: 3rem;
