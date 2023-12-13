@@ -11,3 +11,4 @@ o Roadmap and future enhancements:
  My future plan is to integrate a live chat where I can communicate with clients directly whenever we have an ongoing project or for support incase of any errors encountered by the client.
 o Contact information:
  E-mail : <brightonomondi4@gmail.com>
+You can check my deployed site by clicking the link <https://brightonomondi.netlify.com> furthermore you can also link with me on linkedin at <https://www.linkedin.com/in/brighton-omondi-1467ab25b/>
