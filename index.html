@@ -3,72 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Brighton</title>
     <link rel="stylesheet" href="index.css">
-</head>
+    <link rel="stylesheet" href="info.css">
 <!--Hero section-->
 <body>
+  <div class="floating-card" id="floatingCard">
+    <span class="close-btn" onclick="closeCard()">X</span>
+    <p>Hello, Welcome to my portfolio. I would like to inform you that this website is still under development and you may encounter a few glitches.</p>
+  </div>
 <main>
 
   <section>
-    <div class="img">
-      <h1>Welcome To My Portfolio</h1><br>
-      <h4>Come with your vision and I will help you bring it to life</h4>
 
+    <div class="landing">
+      <div >
+        <h1>Welcome To My Portfolio</h1><br>
+        <p>Come with your vision and I will help you bring it to life</p>
+
+      </div>
+
+      <div class="pic">
+        <img src="./pic-modified.png" height="448rem">
+      </div>
     </div>
   </section><br>
 
-  <section>
-    <div class="container">
-      <div class="content">
-        <div class="content__container">
-          <p class="content__container__text">
-            Hello!
-          </p>
-        
-          <ul class="content__container__list">
-            <li class="content__container__list__item">welcome </li>
-            <li class="content__container__list__item">to </li>
-            <li class="content__container__list__item">my </li>
-            <li class="content__container__list__item">Portfolio</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section class="social">
-    <div class="hero">
-  
-      <div>
 
         <div>
           <button class="me"><a href="aboutme.html">About Me</a></button>
         </div><br>
     
         <!--Link-->
-        <div id="link">
-          <div id="hero">
-            <div class="link">
-              <!--LinkedIn-->
-              <a href="https://www.linkedin.com/in/brighton-omondi-1467ab25b/" target="_blank"><img src="linkedin.png" height="40"></a>
-            </div>
-      
-            <div class="link">
-                <!--Twitter/X-->
-                <a href="https://twitter.com/Delveharmony" target="_blank"><img src="twitter.png" height="33"></a>
-            </div>
-        
-            <div class="link">
-                <!--Instagram-->
-                <a href="https://www.instagram.com/delveharmony/" target="_blank"><img src="instagram.png" height="36"></a>
-            </div>
-          </div>
-        </div>
-    
-      </div>
-    </div>
+
   </section>
 </main>
+<script src="./info.js"></script>
 </body>
+<footer class="foot">
+  <div id="hero">
+    <div class="link">
+      <!--LinkedIn-->
+      <a href="https://www.linkedin.com/in/brighton-omondi-1467ab25b/" target="_blank"><img src="linkedin.png" height="40"></a>
+    </div>
+
+    <div class="link">
+        <!--Twitter/X-->
+        <a href="https://twitter.com/Delveharmony" target="_blank"><img src="twitter.png" height="33"></a>
+    </div>
+
+    <div class="link">
+        <!--Instagram-->
+        <a href="https://www.instagram.com/delveharmony/" target="_blank"><img src="instagram.png" height="36"></a>
+    </div>
+  </div>
+
+</footer>
 </html>

@@ -1,0 +1,26 @@
+/* You can adjust these styles according to your preferences */
+.floating-card {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+    border: 4px teal solid;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: antiquewhite;
+  }
+  
+  .close-btn:hover {
+    color: teal;
+  }
+  
