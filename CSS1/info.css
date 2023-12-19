@@ -1,0 +1,52 @@
+/* CSS for responsive floating card */
+
+.floating-card {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 80%; /* Adjust the maximum width as needed */
+    background-color: black;
+    padding: 20px;
+    border: teal 4px solid;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #888;
+  }
+  
+  .close-btn:hover {
+    color: teal;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .floating-card {
+      padding: 20Spx;
+      font-size: 14px;
+      max-width: 90%;
+    }
+  }
+
+/* Updated CSS to include blur effect */
+
+body.blur {
+    filter: blur(5px);
+    pointer-events: none;
+  }
+  
+  .floating-card {
+    /* Existing styles */
+  }
+  
+  .close-btn {
+    /* Existing styles */
+  }
+  
